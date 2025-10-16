@@ -26,9 +26,9 @@ export default function InfoBox({info}) {
       <CardActionArea>
         <CardMedia
           component="img"
-          height="140"
+          height="150"
           image={info.humidity >59 ? RAIN_URL : info.temp >15 ? HOT_URL : COLD_URL}
-          title="weather image"
+          title="weather Image"
           
         />
         <CardContent>
